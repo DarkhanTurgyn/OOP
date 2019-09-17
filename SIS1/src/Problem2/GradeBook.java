@@ -69,10 +69,10 @@ public class GradeBook {
 		}
 		return minPos;
 	}
-
 	
-
-	
-	
+	@Override
+	public String toString() {
+		return "GradeBook [course=" + course + ", students=" + students + ", grades=" + grades + "]";
+	}
 	
 }
